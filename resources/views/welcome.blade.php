@@ -4,12 +4,14 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <img src="banner/banner.jpg" class="img-fluid" alt="image not found">
+            <img src="banner/banner.jpg" class="" alt="image not found" height="400px" width="600px">
         </div>
         @if(!Auth::user())
         <div class="col-md-6 mt-5">
             <h2>Create an account & book your appointment</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, repellat! Accusamus quisquam illum facere possimus, sequi dicta eveniet reprehenderit nostrum eaque voluptas iusto, earum iste obcaecati sapiente dolores modi rem.</p>
+            <p>It is a doctor appointment booking online web application, Now-a-days getting
+ appointment is such a hard task, to get effective solution and hassle-free booking
+experience So book your appointment with the desired doctor. </p>
         <div class="mt-4">
                 <a href="{{ url('/register') }}"> <button class="btn btn-primary" style="margin-right: 10px;">Register as Patient</button></a>
 
@@ -17,9 +19,11 @@
         </div>
         @endif
         @if(Auth::user())
-        <div class="col-md-6 mt-5">
-            <h2>welcome to the bindaaas house</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, repellat! Accusamus quisquam illum facere possimus, sequi dicta eveniet reprehenderit nostrum eaque voluptas iusto, earum iste obcaecati sapiente dolores modi rem.</p>
+        <div class="col-md-6 mt-5 ">
+            <h2>Welcome to the doctor appointment system</h2>
+            <p>It is a doctor appointment booking online web application, Now-a-days getting
+ appointment is such a hard task, to get effective solution and hassle-free booking
+experience So book your appointment with the desired doctor. </p>
         </div>
         @endif
         </div>
@@ -27,10 +31,10 @@
     <hr/>
       <!-- search doctor -->
     <form action="{{ url('/') }}"method="GET">
-            <div class="card mb-4 mt-4">
+            <div class="card mb-4 mt-4 container">
 
   
-                <div class="card-body">
+                <div class="card-body ">
                     <div class="card-header">Find Doctors</div>
                     <div class="card-body">
                         <div class="row">
@@ -46,7 +50,7 @@
             </div>
     </form>
             <!-- display doctor  -->
-        <div class="card">
+        <div class="card container">
             <div class="card-body">
                 <div class="card-header">List of Doctors Available
                 </div>

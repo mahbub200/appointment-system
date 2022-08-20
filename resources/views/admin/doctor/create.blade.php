@@ -97,7 +97,7 @@
                                 <label for="">Education</label>
                                 <input type="text" name="education"
                                     class="form-control @error('education') is-invalid @enderror"
-                                    placeholder="Doctor's Highest Degree" value="{{ old('education') }}">
+                                     value="{{ old('education') }}">
                                 @error('education')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
@@ -124,7 +124,7 @@
 
                                     <input type="text" name="department"
                                         class="form-control @error('department') is-invalid @enderror"
-                                        placeholder="Department" value="{{ old('department') }}">
+                                         value="{{ old('department') }}">
 
 
                                     @error('department')

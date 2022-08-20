@@ -31,7 +31,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">#</th>
-                                    <th scope="col">Photo</th>
+                                    
                                     <th scope="col">Date</th>
                                     <th scope="col">User</th>
                                     <th scope="col">Email</th>
@@ -43,11 +43,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @forelse($bookings as $key=>$booking)
+                            @forelse($bookings as $key=>$booking)
                                     <tr>
                                         <td>{{ $key + 1 }}</td>
-                                        <td><img src="profile/{{ $booking->user->image }}" width="80">
-                                        </td>
+                                       
                                         <td>{{ $booking->date }}</td>
                                         <td>{{ $booking->user->name }}</td>
                                         <td>{{ $booking->user->email }}</td>
