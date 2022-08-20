@@ -191,7 +191,7 @@ class SslCommerzPaymentController extends Controller
                 */
                 $update_product = DB::table('bookings')
                     ->where('transaction_id', $tran_id)
-                    ->update(['status' => 1]);
+                    ->update(['status' => 0]);
 
                     return redirect('/my-booking')->with('message', 'Your appointment was booked successfully');
                 } else {

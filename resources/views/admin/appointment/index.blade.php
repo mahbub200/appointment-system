@@ -40,7 +40,7 @@
 
 
 
-    <form action="{{ route('appointment.check') }}" method="post">
+    <form action="{{ route('appointment.check') }}" method="post" autocomplete="off">
                 @csrf
 
             <div class="card">

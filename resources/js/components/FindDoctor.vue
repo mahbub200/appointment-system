@@ -7,7 +7,8 @@
 			</div>
 		</div>
 
-
+{{time}}
+{{doctors}}
 
 		<div class="card">
 			<div class="card-header"> Doctors </div>

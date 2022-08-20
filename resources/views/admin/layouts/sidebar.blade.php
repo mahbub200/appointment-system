@@ -56,7 +56,7 @@
                             <div class="nav-item has-sub">
                                     <a href="javascript:void(0)"><i class="ik ik-layers"></i><span>Patient Appointment</span> <span class="badge badge-danger"></span></a>
                                 <div class="submenu-content">
-                                    <a href="{{ route('patient') }}" class="menu-item">Today Appointment</a>
+                                    <a href="{{ route('patient') }}" class="menu-item"> Appointment</a>
                                     <a href="{{ route('all.appointments') }}" class="menu-item">All Time Appointment</a>
                                 </div>
                             </div>

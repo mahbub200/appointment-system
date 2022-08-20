@@ -30,7 +30,7 @@ experience So book your appointment with the desired doctor. </p>
     </div>
     <hr/>
       <!-- search doctor -->
-    <form action="{{ url('/') }}"method="GET">
+    <form action="{{ url('/') }}"method="GET" autocomplete="off">
             <div class="card mb-4 mt-4 container">
 
   

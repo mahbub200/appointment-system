@@ -17,7 +17,7 @@
             @endforeach
 
 
-<form action="{{ route('appointment.store') }}" method="post">
+<form action="{{ route('appointment.store') }}" method="post" autocomplete="off">
                 @csrf
 
 <div class="container">
